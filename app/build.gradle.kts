@@ -28,7 +28,7 @@ android {
     namespace = "app.lawnchair.lawnicons"
 
     defaultConfig {
-        applicationId = "app.lawnchair.lawnicons"
+        applicationId = "app.dawnicons"
         minSdk = 26
         targetSdk = compileSdk
         versionCode = 26
@@ -74,7 +74,7 @@ android {
     productFlavors {
         create("app") {
             dimension = "product"
-            resValue("string", "apps_name", "Lawnicons")
+            resValue("string", "apps_name", "Dawnicons")
         }
     }
     sourceSets.getByName("app") {
@@ -111,7 +111,7 @@ androidComponents {
     onVariants { variant ->
         variant.outputs.forEach { output ->
             with(output) {
-                val newApkName = "Lawnicons ${versionName.get()} v${versionCode.get()}_${variant.buildType}.apk"
+                val newApkName = "Dawnicons ${versionName.get()} v${versionCode.get()}_${variant.buildType}.apk"
                 outputFileName = newApkName
             }
         }

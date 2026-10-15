@@ -2,7 +2,7 @@
     <!-- General -->
 
     <!-- Application name -->
-    <string name="app_name" translatable="false">Lawnicons</string>
+    <string name="app_name" translatable="false">Dawnicons</string>
     <!-- Version name, with %s as the version code -->
     <string name="version_x">Version %s</string>
     <!-- Accessibility label for Back button -->
@@ -45,7 +45,7 @@
     <!-- When all icons are fulfilled -->
     <string name="icon_requests_fulfilled">All icons are supported. Report rebrandings via GitHub issues.</string>
     <!-- When icon requests are turned off via the JSON in the website -->
-    <string name="icon_requests_suspended">Icon requests open for a limited time with every new Lawnicons release.</string>
+    <string name="icon_requests_suspended">Icon requests open for a limited time with every new Dawnicons release.</string>
 
     <!-- Label for the About screen and toolbar action -->
     <string name="about">About</string>
@@ -155,7 +155,7 @@
     <!-- Bug report -->
 
     <!-- Title shown for the bug report -->
-    <string name="bug_report">Lawnicons bug report</string>
+    <string name="bug_report">Dawnicons bug report</string>
     <!-- Notification title shown when %1$s crashes -->
     <string name="crash_report_notif_title">%1$s crashed</string>
     <!-- Action to upload a crash log -->
